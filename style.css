@@ -1,22 +1,29 @@
-	ol {color: #66FF00;
-	/*стили */
-	font-size: 30px;
-    font-style: italic;
-      }
-
-	body
-	{color: white ;
-	background-color: #333333
-      }
-
-	h1{color: blue; 
-	font-size: 100px;
-	font-weight: bold; 
-	text-decoration: underline;
-	font-family: 'Pacifico', cursive;
-	  }
-
-   	h2{color: red; 
-	font-size: 50px;
-	font-family: 'Neucha', cursive;
-	  }
+body
+	{
+		text-align: center;
+		background-color: hsl(0,0%,85%);
+	} 
+h2
+	{
+		font-size: 100px
+	}
+div 
+	{
+		height: 25vh
+	}
+.norm
+	{
+		background-color: #eb2336
+	}
+.pikal
+	{
+		background-color: #131a6d
+	}
+.long
+	{
+		background-color: #ffd600
+	}
+.xok
+	{
+		background-color: #00a750
+	}	
