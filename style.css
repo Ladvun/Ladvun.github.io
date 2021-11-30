@@ -1,29 +1,37 @@
-body
-	{
-		text-align: center;
-		background-color: hsl(0,0%,85%);
-	} 
-h2
-	{
-		font-size: 100px
-	}
-div 
-	{
-		height: 25vh
-	}
-.norm
-	{
-		background-color: #eb2336
-	}
-.pikal
-	{
-		background-color: #131a6d
-	}
-.long
-	{
-		background-color: #ffd600
-	}
-.xok
-	{
-		background-color: #00a750
-	}	
+body { 
+	margin: 0;
+ }
+.conteiner {
+	max-width: 1280px;
+	margin: auto; 
+}
+
+header {
+	background: #222222;
+}
+
+.menu {
+ 	display: flex;
+ 	padding: : 54px 160px 0
+}
+.menu_list {
+ 	display: flex;
+ 	list-style-type: none;
+}
+
+.menu_list li {
+	margin-right: 30px;
+}
+
+.menu_list a {
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 17px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #D4D4D4;
+
+}
