@@ -1,22 +1,26 @@
-body { 
+body {
 	margin: 0;
- }
-.conteiner {
+}
+
+.container {
 	max-width: 1280px;
-	margin: auto; 
+	margin: auto;
 }
 
 header {
-	background: #222222;
+	background-color: #222;
 }
 
 .menu {
- 	display: flex;
- 	padding: : 54px 160px 0
+	display: flex;
+	padding: 54px 160px 0;
+	justify-content: space-between;
+	align-items:center;
 }
+
 .menu_list {
- 	display: flex;
- 	list-style-type: none;
+	display: flex;
+	list-style-type: none;
 }
 
 .menu_list li {
@@ -34,4 +38,42 @@ header {
 	text-align: left;
 	color: #D4D4D4;
 
+}
+
+.menu_left {
+	display: flex;
+	align-items: center;
+}
+
+.mail {
+	margin-right: 24px;
+}
+
+.contacts {
+	display: flex;
+	align-items: flex-start;
+}
+.heder_bottom{
+	display: flex;
+}
+.heder_content {
+	color: #fff
+}
+.heder_content h1 {
+font-family: Courier New;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: 0em;
+text-align: left;
+}
+.heder_content p{
+font-family: Verdana;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
 }
