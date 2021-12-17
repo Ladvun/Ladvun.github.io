@@ -156,10 +156,11 @@ header {
 .content_top {
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 50px;
 }
 
-.content_top-text {
-	margin-right: 79px;
+.content_top_text {
+	margin-left: 80px;
 }
 
 .content h2 {
@@ -173,7 +174,6 @@ header {
 	color: #000000;
 	margin-top: 0;
 	margin-bottom: 44px;
-
 }
 
 .content p {
@@ -189,6 +189,98 @@ header {
 
 .content_bottom {
 	display: flex;
+	justify-content: space-between;
+	font-family: Verdana;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 17px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #000000;
+}
+
+.content_bottom strong {
+	font-weight: 700;
+}
+
+.content_bottom h2 {
+	margin-bottom: 27px;
+}
+
+.content_bottom li {
+	margin-bottom: 17px;
+	padding-left: 23px;
+}
+
+.content_bottom ul {
+	list-style-image: url("img/marker.svg");
+	padding-left: 15px;
+}
+
+.content_bottom article:not(:first-child) {
+	margin-left: 80px;
+}
+
+/* footer */
+
+footer {
+	background-color: #131313;
+}
+
+.footer_container {
+	padding: 60px 160px 88px;
+	display: flex;
+}
+
+.footer_left {
+	margin-right: 100px;
+}
+
+.footer_left_top {
+	font-family: Verdana;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 17px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #D4D4D4;
+	display: flex;
+	align-items: center;
+}
+
+.footer_left_top img {
+	margin-right: 15px;
+}
+
+.footer_left_bottom {
+	font-family: Verdana;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 17px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #555555;
+}
+
+.footer_right {
+	display: flex;
+	justify-content: 
+	width: 180px;
+
+}
+
+.footer_right article {
+	width: 180px;
+}
+
+.footer_right article:not(:last-child) {
+	margin-right: 80px;
+}
+
+.footer_right h3 {
 	font-family: Verdana;
 	font-size: 14px;
 	font-style: normal;
@@ -196,33 +288,39 @@ header {
 	line-height: 17px;
 	letter-spacing: 0em;
 	text-align: left;
-	color: #000000
+	color: #D4D4D4;
+	margin-bottom: 12px;
 }
-.content_bottom strong {
-	font-weight: 700;
-}
-.content_top {
-	margin:50px;
+.footer_right hr{
+	margin-bottom: 58px;
+
 }
 
-.content_bottom h2{
-	margin-bottom: 27px
+.footer_right ul {
+	font-family: Verdana;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 17px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #888888;
+	list-style-type: none;
+	padding: 0;
 }
-.content_bottom li {
+
+.footer_right article li:not(:last-child) {
 	margin-bottom: 17px;
-	padding-left: 23px;
-
-
-}
-.content_bottom ul{
-	list-style-image: url("img/marker.svg");
-	padding-left: 15px ;	
 }
 
-.content_bottom article {
+.footer_left {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+ {
+	background-color: #222222;
 
 }
-footer {
-	background: #131313;
-	
-}
+.schedule_container
